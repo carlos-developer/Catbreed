@@ -15,60 +15,66 @@
         android:layout_height="wrap_content">
 
         <ImageView
-            android:id="@+id/imageViewCat"
+            android:id="@+id/image_view_cat"
             android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_height="400dp"
             android:layout_marginTop="16dp"
+            android:contentDescription="@string/cat_image"
+            android:scaleType="fitXY"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textViewNameRaza"
+            app:layout_constraintTop_toBottomOf="@+id/text_view_name"
             tools:srcCompat="@tools:sample/avatars" />
 
         <TextView
-            android:id="@+id/textViewNameRaza"
+            android:id="@+id/text_view_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:layout_marginBottom="16dp"
-            android:text="Nombre Raza"
-            app:layout_constraintBottom_toTopOf="@+id/imageViewCat"
+            android:text="@string/cat_breed_name"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/image_view_cat"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/textViewPaisOrigen"
+            android:id="@+id/text_view_origin_country"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:layout_marginBottom="16dp"
-            android:text="Pais de origen"
+            android:text="@string/origin_country"
+            android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewCat" />
+            app:layout_constraintTop_toBottomOf="@+id/image_view_cat" />
 
         <TextView
-            android:id="@+id/textViewInteligencia"
+            android:id="@+id/text_view_intelligence"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginBottom="16dp"
-            android:text="Inteligencia"
+            android:text="@string/intelligence"
+            android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewCat" />
+            app:layout_constraintTop_toBottomOf="@+id/image_view_cat" />
 
         <TextView
-            android:id="@+id/textViewMas"
+            android:id="@+id/text_view_more"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginBottom="16dp"
-            android:text="Más..."
-            app:layout_constraintBottom_toTopOf="@+id/imageViewCat"
+            android:text="@string/more"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/image_view_cat"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>

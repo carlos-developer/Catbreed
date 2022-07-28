@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="8dp"
-    tools:context=".ui.screens.CatBreedFragment">
+    tools:context="com.catbreed.ui.screens.CatBreedFragment">
 
     <androidx.appcompat.widget.SearchView
         android:id="@+id/searchView"

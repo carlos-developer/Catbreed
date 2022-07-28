@@ -12,6 +12,5 @@
     <string name="life_span">Tiempo de vida: %s años</string>
     <string name="description">Descripción: %s</string>
     <string name="cat_image">Imagen de gato</string>
-    <string name="not_result">No hay resultados que concuerden con tu busqueda, Intentalo nuevamente."</string>
-    <string name="error_unexpected">Ha ocurrido un error inesperado, revisa tu conexión e intentalo mas tarde.</string>
+    <string name="error_unexpected">Ha ocurrido un error inesperado, revisa tu conexión e Intentalo mas tarde.</string>
 </resources>
