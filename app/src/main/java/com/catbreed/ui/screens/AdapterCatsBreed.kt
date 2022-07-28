@@ -13,7 +13,7 @@ import androidx.navigation.NavController
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.catbreed.domain.models.Cat
-import com.gopenux.catbreed.R
+import com.catbree.R
 
 class AdapterCatsBreed(
     private val activity: NavController,

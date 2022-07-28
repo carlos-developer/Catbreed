@@ -1,4 +1,4 @@
-package com.gopenux.catbreed
+package com.catbreed
 
 import org.junit.Assert.assertEquals
 import org.junit.Test

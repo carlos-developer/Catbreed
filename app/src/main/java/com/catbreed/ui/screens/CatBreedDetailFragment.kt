@@ -9,8 +9,8 @@ import androidx.appcompat.app.AppCompatDelegate
 import androidx.fragment.app.Fragment
 import com.bumptech.glide.Glide
 import com.catbreed.domain.models.Cat
-import com.gopenux.catbreed.R
-import com.gopenux.catbreed.databinding.FragmentCatBreedDetailBinding
+import com.catbree.R
+import com.catbree.databinding.FragmentCatBreedDetailBinding
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

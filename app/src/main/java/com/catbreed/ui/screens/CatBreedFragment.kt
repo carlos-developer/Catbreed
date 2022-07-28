@@ -17,8 +17,8 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.catbreed.domain.models.Cat
 import com.catbreed.ui.CatBreedViewModel
 import com.catbreed.ui.DataState
-import com.gopenux.catbreed.R
-import com.gopenux.catbreed.databinding.FragmentCatBreedBinding
+import com.catbree.R
+import com.catbree.databinding.FragmentCatBreedBinding
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

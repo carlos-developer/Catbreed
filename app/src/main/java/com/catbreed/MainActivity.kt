@@ -4,8 +4,8 @@ import android.app.UiModeManager
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
-import com.gopenux.catbreed.R
-import com.gopenux.catbreed.databinding.ActivityMainBinding
+import com.catbree.R
+import com.catbree.databinding.ActivityMainBinding
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
