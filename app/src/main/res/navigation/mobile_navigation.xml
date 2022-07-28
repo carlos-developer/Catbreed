@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.gopenux.catbreed.ui.screens.CatBreedFragment"
+        tools:layout="@layout/fragment_cat_breed">
+        <action
+            android:id="@+id/action_nav_home_to_fragment_cat_breed_detail"
+            app:destination="@id/fragment_cat_breed_detail" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment_cat_breed_detail"
+        android:name="com.gopenux.catbreed.ui.screens.CatBreedDetailFragment"
+        tools:layout="@layout/fragment_cat_breed_detail" />
+</navigation>

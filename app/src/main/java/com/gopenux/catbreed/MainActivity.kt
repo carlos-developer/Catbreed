@@ -1,18 +1,22 @@
 package com.gopenux.catbreed
 
-import androidx.appcompat.app.AppCompatActivity
+import android.app.UiModeManager
 import android.os.Bundle
-import com.gopenux.catbreed.ui.main.MainFragment
+import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatDelegate
+import com.gopenux.catbreed.databinding.ActivityMainBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
+
+    private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-        if (savedInstanceState == null) {
-            supportFragmentManager.beginTransaction()
-                .replace(R.id.container, MainFragment.newInstance())
-                .commitNow()
-        }
+        setTheme(R.style.Theme_Catbreed)
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+        AppCompatDelegate.setDefaultNightMode(UiModeManager.MODE_NIGHT_NO)
     }
 }
